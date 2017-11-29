@@ -7,8 +7,8 @@
 //Create an object called me. Give it a key of name with the value being your name, and another key of age with the value being your age. Then alert your name using dot notation.
 
   //Code here
-
-
+  let me = {name : "Rachel", age : 25}
+  alert(me.name);
 
 
 
@@ -22,7 +22,7 @@
 
   //Code here
 
-
+let favoriteThings = {band: "Kygo", food: "pizza", person: "Sean", book:"Ella Enchanted", movie: "King Arthur", holiday: "thanksgiving"}
 
 
 
@@ -33,6 +33,8 @@
   //Code here
 
 
+favoriteThings.car = "one that moves";
+favoriteThings.brand = "a good one";
 
 
 
@@ -41,7 +43,8 @@
   //Code here
 
 
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 //NEXT PROBLEM
@@ -61,7 +64,10 @@ that is named color, with the value being the color of your backpack.
   //Code here
 
 
-
+let backPack = {}
+var item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = "red";
 
 
 
@@ -69,7 +75,7 @@ that is named color, with the value being the color of your backpack.
 
   //Code here
 
- 
+ alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -81,7 +87,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 
 
-
+console.log(backPack);
 
 //NEXT PROBLEM
 
@@ -100,7 +106,8 @@ var user2 = {
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
