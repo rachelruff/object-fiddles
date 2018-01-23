@@ -8,7 +8,7 @@
 
   //Code here
 
-me
+me = {}
 
 
 
